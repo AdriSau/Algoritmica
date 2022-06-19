@@ -1,3 +1,5 @@
+package M1_DYV;
+
 public class M1_2 {
     /*
     Trabajaremos con una longitud minima de 3, asi los casos base deben resolver cualquier vector de esa longitud

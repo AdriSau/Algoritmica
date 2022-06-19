@@ -1,0 +1,17 @@
+Modulo 2:
+    1   X
+    2   bien
+    3   bien
+    4   X
+
+    X2 X
+    X3X
+ Modulo 2:
+     1   bien
+     2   -
+     3   -
+     4   -
+
+     X2 -
+     X3 -
+ien

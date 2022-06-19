@@ -1,3 +1,5 @@
+package M1_DYV;
+
 public class M1_3 {
     public int igualIndice(int[] v){
         return aux(v,0,v.length/2,v.length-1);
