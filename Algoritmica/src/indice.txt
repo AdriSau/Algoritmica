@@ -4,15 +4,15 @@ Modulo 2:
     3   bien
     4   X
 
-    X1 X 18
-    X2 X 19
-    X3 X 20
-    X4 X 21
+    X1 X    18
+    X2 X    19
+    X3 X    20
+    X4 X    21
  Modulo 2:
      1   bien
      2   bien
      3   bien
      4   -
 
-     X1 - 19
+     X1  -  19
 ien
