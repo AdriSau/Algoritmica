@@ -1,5 +1,7 @@
 package M2_BCK;
 
+import Utilidades.Booleano;
+
 public class M2_1 {
     //bien hecho
    public boolean hayRepartoEquitativo(int[] bienes){

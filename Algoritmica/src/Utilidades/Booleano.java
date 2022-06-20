@@ -1,4 +1,4 @@
-package M2_BCK;
+package Utilidades;
 
 public class Booleano {
     private boolean valor;
