@@ -1,6 +1,8 @@
 package M3_Voraces.M3_Subutilidades;
 
-public class Conjunto {
+public class
+
+Conjunto {
     private int[] contenido;
 
     public Conjunto(int[] contenido) {

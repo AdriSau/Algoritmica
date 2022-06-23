@@ -17,6 +17,15 @@ public class Imprenta {
             System.out.print(a+" ");
         }
     }
+    public void matrizCuadradaInt(int[][]m, int N){
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                System.out.print(m[i][j]+" ");
+            }
+            System.out.println();
+
+        }
+    }
     public void matrizCuadradaBooleanos(boolean[][] m){
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m.length; j++) {

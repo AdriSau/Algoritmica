@@ -2,22 +2,26 @@ package M1_DYV;
 
 public class X_3_2020D {
     public int maxArrayColina(int[] vector){
-      return aux(vector,0,vector.length-1);
+        return aux(vector,0,vector.length-1);
     }
-    private int aux(int[]v, int ini, int fin){
-        int res = 0;
-        int k = (ini+fin)/2;
-        if(ini == fin){
-            return v[ini];
-        }else if(v[k] < v[ini]){
-            res = aux(v,ini,k-1);
-        }else
-            res = aux(v,k,fin);
-        return res;
+    private int aux(int[]v, int io, int n){
+
+        if(io == n){
+            return v[n];
+        }else if(n == io+1){
+            return Math.max(v[io],v[n]);
+        }else{
+            int k = (io+n)/2;
+            if (v[k] >v[k+1]){
+                return aux(v,io,k);
+            }else
+                return aux(v,k+1,n);
+        }
     }
+
     public static void main(String[] args) {
         X_3_2020D exe = new X_3_2020D();
-        int[] v = {5,7,8,9,3,2,1,0,-7};
+        int[] v = {5, 7 ,8 ,9 ,3 ,2 ,1 ,0 ,-7};
         int[] v1 = {8,9,3,2,1,0,-7};
         int[] v2 = {5,7,9,3,2,1,0,-7};
         int[] v3 = {2,1,0,-7,5,7,8,9,3};
@@ -30,6 +34,7 @@ public class X_3_2020D {
         System.out.println(exe.maxArrayColina(v2));
         System.out.println(exe.maxArrayColina(v3));
         System.out.println(exe.maxArrayColina(v4));
+        System.out.println(exe.maxArrayColina(v));
 
 
     }
