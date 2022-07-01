@@ -1,6 +1,6 @@
 package M1_DYV;
 
-public class X_4 {
+public class X_4_2021 {
 
     public int ejDyVsep(int[] vector1, int[] vector2){
         return aux(vector1,vector2,0,vector1.length-1);
@@ -23,7 +23,7 @@ public class X_4 {
         }
     }
     public static void main(String[] args) {
-        X_4 exe = new X_4();
+        X_4_2021 exe = new X_4_2021();
         int[] v1 = {-2,0,1,1,2,2,2,3};
         int[] v2 = {-2,0,1,1,5,5,5,5};
         int[] v3 = {-4,-2,0,1,1,2,3,4,-9};

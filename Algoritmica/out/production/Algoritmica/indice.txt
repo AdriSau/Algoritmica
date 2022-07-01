@@ -1,27 +1,34 @@
 Modulo 1:
-    1   X
+    1   bien
     2   bien
     3   bien
     4   X
 
-    X1 X    18
+    X1 bien?    18
     X2 X    19
     X3 Bien    20
-    X4 X    21
+    X4 bien    21
  Modulo 2:
      1   bien
      2   bien
      3   bien
      4   -
 
-     X1  -  19
+     X1  ?  19
 
- Modulo 4:
+ Modulo 3:
      1   bien
      2   bien
      3   bien
-     4   -
+     4   bien : necesitamos trabajar siempre con arraylist entonces faltaria pasarlo a ello
 
      X1  -  19
 
- X_3_2020D exe = new X_3_2020D();
+ Modulo 4:
+     1   -
+     2   -
+     3   -
+     4   -
+
+
+

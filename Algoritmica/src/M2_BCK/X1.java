@@ -11,7 +11,10 @@ public class X1 {
         aux(tabla,N,suma,usados,exito,0,0);
         if(exito.isValor()){
             return tabla;
-        }else return null;
+        }else{
+            System.out.println("No solucion");
+            return tabla;
+        }
     }
     public void aux(int[][] tabla,int N, int suma, boolean[] usados, Booleano exito, int x,int y){
         if (esSolucion(tabla,N,suma)){
@@ -39,8 +42,9 @@ public class X1 {
                     }
                 }
 
-
+                c++;
             }
+
         }
     }
 

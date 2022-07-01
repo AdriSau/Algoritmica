@@ -24,5 +24,7 @@ public class EjercicioDelHDPDeValvidon {
         EjercicioDelHDPDeValvidon exe = new EjercicioDelHDPDeValvidon();
         int[]v = {-2,12,3,4,-21,8,12,5,-6,1};
         System.out.println(exe.maxSuma(v));
+        int [] cardPoints = new int[5];
+        int a = cardPoints.length;
     }
 }
